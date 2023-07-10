@@ -11,8 +11,9 @@ public class Post
     public required string Slug { get; set; }
     public DateTime CreateDate { get; set; }
     public DateTime LastUpdateDate { get; set; }
-    public int CategoryId { get; set; }
 
-    public int AuthorId { get; set; }
+    public Category Category { get; set; }
+    public User Author { get; set; }
+    public List<Tag> Tags { get; set; }
 
 }
