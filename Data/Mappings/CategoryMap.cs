@@ -36,6 +36,5 @@ public class CategoryMap : IEntityTypeConfiguration<Category>
         //Índices
         builder.HasIndex(x => x.Slug, "IX_Category_Slug")
             .IsUnique();
-
     }
 }
