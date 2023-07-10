@@ -32,5 +32,7 @@ public class CategoryMap : IEntityTypeConfiguration<Category>
             .HasColumnName("Slug")
             .HasColumnType("VARCHAR")
             .HasMaxLength(80);
+
+
     }
 }
