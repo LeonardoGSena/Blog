@@ -11,6 +11,7 @@ public class User
     public required string Image { get; set; }
     public required string Slug { get; set; }
     public required string Bio { get; set; }
+    public string GitHub { get; set; }
 
     public IList<Post> Posts { get; set; }
     public IList<Role> Roles { get; set; }
